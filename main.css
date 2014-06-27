@@ -71,6 +71,30 @@ nav img{
 /*Middle*/
 
 .ajax-swap{
+	position: relative;
+	top: -5px;
 	background-color: #4298C6;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+.ajax-swap h2{
+	position: relative;
+	top: -200px;
+	left: 85px;
+}
+.ajax-swap p, .ajax-swap h2{
+	display: inline-block;
+	max-width: 50%;
+	padding: 0;
+}
+
+.ajax-swap p{
+	text-align: left;
+}
+
+.ajax-swap img{
+	max-height: 100%;
+	max-width: 30%;
 }
 

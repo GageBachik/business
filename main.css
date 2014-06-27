@@ -1,5 +1,7 @@
 /*Base*/
 .center-container{
+	margin: 0 auto;
+	max-width: 1100px;
 	text-align: center;
 }
 /*Base*/
@@ -37,7 +39,34 @@ nav img{
 
 /*Middle*/
 .middle{
+	margin: 0 auto;
+	padding: 0;
 	max-height: 100%;
 	max-width: 100%;
 }
+.menu{
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -5px;
+}
+.menu-bar{
+	height: 100px;
+	margin: 0;
+	padding: 0; 
+	background-color: #28B0F9;
+}
+.menu-bar li{
+	display: inline-block;
+	margin: auto;
+	margin-top: 44px;
+}
+.menu-bar a{
+	color: white;
+	font-weight: lighter;
+	text-decoration: none;
+	padding: 50px;
+}
 /*Middle*/
+

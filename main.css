@@ -79,21 +79,34 @@ nav img{
 	margin: 0;
 }
 .ajax-swap h2{
-	position: relative;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 38px;
+	font-weight: lighter;
+	margin-left: 0px;
+	margin-left: 215px;
+	padding-top: 70px;
+/*	position: relative;
 	top: -200px;
-	left: 85px;
+	left: 85px;*/
 }
-.ajax-swap p, .ajax-swap h2{
+.ajax-swap p {
 	display: inline-block;
 	max-width: 50%;
 	padding: 0;
 }
 
 .ajax-swap p{
+	line-height: 30px;
+	font-weight: lighter;
+	font-size: 20px;
 	text-align: left;
+	margin-bottom: 70px;
 }
 
 .ajax-swap img{
+	/*margin-top: 50px;*/
 	max-height: 100%;
 	max-width: 30%;
 }

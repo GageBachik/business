@@ -27,7 +27,9 @@ nav img{
 .navbar li{
 	float: right;
 }
-
+.navbar li:hover{
+	
+}
 .navbar a{
 	color: #3D8BB5;
 	display: block;
@@ -61,6 +63,9 @@ nav img{
 	display: inline-block;
 	margin: auto;
 	margin-top: 44px;
+}
+.menu-bar li:hover{
+
 }
 .menu-bar a{
 	color: white;
@@ -111,3 +116,7 @@ nav img{
 	max-width: 30%;
 }
 
+.active{
+	padding-bottom: 20px;
+	border-bottom: 2px solid #FF8100;
+}
